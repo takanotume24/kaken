@@ -24,11 +24,12 @@ void setup() {
   // initialize digital pin 13 as an output.
   pinMode(13, OUTPUT);
   Wire.begin();
-  Serial.begin(19200);
+  Serial.begin(38400);
 
   writeRegister(0x20, 0x27);
   int res = readRegister(0x0F);
   Serial.print(res);
+
 }
 
 void loop() {
@@ -49,9 +50,11 @@ void loop() {
   h = readRegister(0x2D);
   z = h << 8 | l;
   q = z / 500;
+
   if (z > 0) {
+    //Serial.println (z);
     for (i = (byte)0; i < q ; i++) {
-     Serial.print("|");
+      Serial.print("|");
     }
 
     digitalWrite(13, HIGH);
