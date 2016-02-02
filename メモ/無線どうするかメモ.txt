@@ -1,8 +1,8 @@
-モーターを無線制御
+☆モーターを無線制御
 xboxコントローラー・・・USBドングル→USBHostShield→Arduino→xbee・・・無線・・・xbee→arduino→モーター
 xboxコントローラー・・・USBドングル→USBhostShield→Arduino→モーター
 
-動画送信
+☆動画送信
 カメラ→Raspberry Pi・・・LAN・・・パソコン受信
 
 ハンドルの部分？
