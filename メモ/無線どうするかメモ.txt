@@ -1,3 +1,4 @@
+.LOG
 ☆モーターを無線制御
 xboxコントローラー・・・USBドングル→USBHostShield→Arduino→xbee・・・無線・・・xbee→arduino→モーター
 xboxコントローラー・・・USBドングル→USBhostShield→Arduino→モーター
